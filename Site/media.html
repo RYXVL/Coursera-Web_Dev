@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Using media queries.</title>
+    <style>
+        #p1 {
+            background-color: aqua;
+            height: 50px;
+            width: 50px;
+        }
+        #p2 {
+            background-color: darkmagenta;
+            height: 50px;
+            width: 50px;
+        }
+        @media (min-width: 900px) and (max-width: 1199px) {
+            #p1 {
+                height: 100px;
+                width: 100px;
+            }
+            #p2 {
+                height: 100px;
+                width: 100px;
+            }
+        }
+        @media (min-width: 1200px) {
+            #p1 {
+                height: 200px;
+                width: 200px;
+            }
+            #p2 {
+                height: 200px;
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+</body>
+</html>
