@@ -1,0 +1,29 @@
+body {
+    font-size: 16px;
+    color: #256263;
+    background-color: #256263;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#header-nav {
+    background-color: #ffffff;
+    border-radius: 0;
+    border: 0;
+}
+
+#site-name {
+    text-decoration: none;
+}
+
+#image1 {
+    background: url(img2.jpg) no-repeat;
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px 10px 0px;
+}
+
+/* #image3 {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+} */
