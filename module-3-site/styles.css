@@ -11,19 +11,19 @@ body {
     border: 0;
 }
 
-#site-name {
-    text-decoration: none;
-}
-
 #image1 {
-    background: url(img2.jpg) no-repeat;
+    background: url(img1.jpg) no-repeat;
     height: 100px;
     width: 100px;
     margin: 10px 10px 10px 0px;
 }
 
-/* #image3 {
-    height: 100px;
-    width: 100px;
-    margin: 0;
-} */
+.navbar-brand {
+    padding-top: 0px;
+    /* text-shadow: 1px 1px 1px black; */
+    /* text-shadow: h-shadow v-shadow blur-radius color */
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
